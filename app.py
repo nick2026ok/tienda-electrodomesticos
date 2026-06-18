@@ -14,7 +14,17 @@ productos = [
     {
         "id": 3,
         "nombre": "Smart TV 50 pulgadas",
-        "precio": 30000,
+        "precio": 30000,    
+    },
+    {
+        "id": 4,
+        "nombre": "Lavarropas Whirlpool",
+        "precio": 22000,     
+    },   
+    { 
+        "id": 5,
+        "nombre": "Aire acondicionado Split",
+        "precio": 28000,     
     }
 ]
 @app.route("/")  ##cuando alguien visite esta direccion, ejecuta la funcion que viene debajo 
